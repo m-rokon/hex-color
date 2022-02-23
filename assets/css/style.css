@@ -6,11 +6,15 @@
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+#hex_code {
+    color: #f9f9f9;
+    margin-bottom: 20px;
+}
 .btn {
-    display: inline-block;
     border: 1px solid #ff4747;
     background: #fff;
     border-radius: 6px;
