@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    display: inline-block;
+    border: 1px solid #ff4747;
+    background: #fff;
+    border-radius: 6px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 2px 3px 15px 0 #792727;
+    transition: all linear 0.3s;
+
+}
+.btn:hover {
+    background: #ff4747;
+    color: #fff;
+    cursor: pointer;
+}
